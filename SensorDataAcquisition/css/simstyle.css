@@ -1,0 +1,282 @@
+
+#canvasBox{
+	overflow:hidden;
+}
+
+#bgCanvas {
+	position:absolute;
+/*	width:587px;
+	height:532px;*/
+	top:0px;
+	z-index:9;
+}
+
+#boardwireCanvas {
+	position:absolute;
+	width:232px;
+	height:206px;
+	top:220px;
+	left:40px;
+	z-index:99;
+}
+
+#boardwireCanvas2 {
+	position:absolute;
+	width:232px;
+	height:206px;
+	top:220px;
+	left:40px;
+	z-index:99;
+}
+
+#boardCanvas {
+	position:absolute;
+	width:232px;
+	height:139px;
+	top:286px;
+	left:55px;
+	z-index:999;
+}
+
+#plantCanvas {
+	position:absolute;
+	width:379px;
+	height:315px;
+	top:-28px;
+	left:40px;
+	z-index:9999;
+}
+
+#plantBoard {
+	position:absolute;
+	width:586px;
+	height:273px;
+	top:2px;
+	left:0px;
+	z-index:99;
+}
+
+#plantBoard2 {
+	position:absolute;
+	width:586px;
+	height:497px;
+	top:2px;
+	left:0px;
+	z-index:99;
+}
+
+#batteryDiv {
+	position:absolute;
+	width:201px;
+	height:142px;
+	left:280px;
+	top:0px;
+	z-index:99999;
+	cursor:move;
+}
+
+#dragWrap {
+	position:absolute;
+	width:505px;
+	height:142px;
+	left:55px;
+	top:250px;
+	z-index:99999;
+}
+
+#topCanvas {
+	position:absolute;
+	cursor:pointer;
+	cursor:hand;
+	width:249px;
+	height:162px;
+	top:282px;
+	left:54.5px;
+	z-index:999999;
+}
+
+#zoombgDiv {
+	position:absolute;
+	width:580px;
+	height:490px;
+	z-index:1;
+}
+
+#zoomredDiv {
+	position:absolute;
+	width:215px;
+	height:222px;
+	left:-40px;
+	top:50px;
+	z-index:2;
+}
+
+#zoomgroundDiv {
+	position:absolute;
+	width:221px;
+	height:208px;
+	left:25px;
+	top:55px;
+	z-index:3;
+}
+
+#zoomwhiteDiv {
+	position:absolute;
+	width:509px;
+	height:143px;
+	left:0px;
+	top:22px;
+	z-index:4;
+}
+
+#redDiv {
+	position:absolute;
+	width:66px;
+	height:11px;
+	left:0px;
+	top:65px;
+	cursor:pointer;
+	cursor:hand;
+	z-index:5;
+}
+
+#redGlow {
+	position:absolute;
+	width:68px;
+	height:13px;
+	left:0px;
+	top:65px;
+	cursor:pointer;
+	cursor:hand;
+	z-index:5;
+}
+
+#groundDiv {
+	position:absolute;
+	width:36px;
+	height:13px;
+	left:32px;
+	top:77px;
+	cursor:pointer;
+	cursor:hand;
+	z-index:6;
+}
+
+#groundGlow {
+	position:absolute;
+	width:37px;
+	height:14px;
+	left:32px;
+	top:77px;
+	cursor:pointer;
+	cursor:hand;
+	z-index:6;
+}
+
+#whiteDiv {
+	position:absolute;
+	width:68px;
+	height:8px;
+	left:0px;
+	top:52px;/*47px;*/
+	cursor:pointer;
+	cursor:hand;
+	z-index:7;
+}
+
+#whiteGlow {
+	position:absolute;
+	width:71px;
+	height:11px;
+	left:0px;
+	top:52px;/*47px;*/
+	cursor:pointer;
+	cursor:hand;
+	z-index:7;
+}
+
+#blackDiv {
+	position:absolute;
+	width:100px;/*152px;*/
+	height:74px;
+	left:-50px;
+	top:35px;
+	z-index:9;
+}
+
+#zoomDiv {
+	position:absolute;
+	width:433px;
+	height:398px;
+	left:80px;
+	top:70px;
+	z-index:10;
+}
+
+#wireCanvas {
+	position:absolute;
+	width:72px;
+	height:27px;
+	top:245px;
+	left:-20px;
+	/*z-index:99;*/
+}
+
+.screw {
+	cursor:pointer;
+	
+	
+}
+area{
+		cursor:pointer;
+		cursor:hand;
+		}
+
+#closeBtn {
+	position:absolute;
+	width:21px;
+	height:20px;
+	left:530px;
+	top:15px;
+	z-index:10;
+	cursor:pointer;
+	cursor:hand;
+}
+
+#waterGif {
+	position:absolute;
+	width:230px;
+	height:210px;
+	left:198px;
+	top:-100px;
+	z-index:99999;
+}
+
+.input-range {
+    margin-top: 10px !important;
+}
+.moistureSlider{
+	width:142px;
+    margin: 3px 0 3px 20px !important;
+}
+.instructions {
+    color: #626262;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    padding: 5px 0 0 10px;
+    text-align: left !important;
+}
+#blinkarrow
+{
+		-moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -o-user-select: none;
+   user-select: none;
+	position:absolute;
+	width:230px;
+	height:110px;
+	left:76px;
+	top:13.5px;
+	z-index:99999;
+}
