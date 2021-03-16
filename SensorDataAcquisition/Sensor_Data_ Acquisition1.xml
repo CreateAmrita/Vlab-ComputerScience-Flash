@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+<SCENE ID="Scene0">
+	<TEXT ID="Scene0_one">
+		<TEXTVALUE></TEXTVALUE>
+		</TEXT>
+</SCENE>
+<SCENE ID="Scene01">
+	<TEXT ID="Scene01_one">
+		<TEXTVALUE>Point the mouse to each component to know its name/Click the "Continue" button to start the experiment.</TEXTVALUE>
+		</TEXT>
+</SCENE>
+
+<SCENE ID="2Takethemoistursensor">
+	<TEXT ID="2Takethemoistursensor_one">
+		<TEXTVALUE>Take the Dielectric moisture sensor.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="3Removethecap">
+	<TEXT ID="3Removethecap_one">
+		<TEXTVALUE>Remove the cap.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="4insertthesensor">
+	<TEXT ID="4insertthesensor_one">
+		<TEXTVALUE>Now insert the sensor into the pot with plant.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="4insertthesensor">
+	<TEXT ID="4insertthesensor_two">
+		<TEXTVALUE>Sensor completely inserted inside the pot.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="5Takethedataacquisition">
+	<TEXT ID="5Takethedataacquisition_one">
+		<TEXTVALUE>Take the data acquisition board.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="5Takethedataacquisition">
+	<TEXT ID="5Takethedataacquisition_two">
+		<TEXTVALUE>Connect the Analog out (Red wire) to any one of the available eight analog pins labelled as A0-A7 because the connected dielectric moisture sensor is an analog sensor. If you would like to connect any digital sensor then, connect it to any one of the eight digital pins labelled as D0-D7.
+		</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="6connectedtothe4tchannel">
+	<TEXT ID="6connectedtothe4tchannel_one">
+		<TEXTVALUE>Excitation wire (white) to be connected to the Vcc channel. Connect the Ground wire to any one of the two available ground channel (the pins labelled as GND).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="7taketheWSNnode">
+	<TEXT ID="7taketheWSNnode_one">
+		<TEXTVALUE>Take the WSN node. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="8Keeitonthedataacquisition">
+	<TEXT ID="8Keeitonthedataacquisition_one">
+		<TEXTVALUE>Keep it on the data acquisition board.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="9Waterfallsintothepot">
+	<TEXT ID="9Waterfallsintothepot_one">
+		<TEXTVALUE>Water falls into the pot with sensor.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="10mudaroundthemoisturesensitizer">
+	<TEXT ID="10mudaroundthemoisturesensitizer_one">
+		<TEXTVALUE>Water seep into the mud around the moisture sensitizer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="11datawillflowfromthesensor">
+	<TEXT ID="11datawillflowfromthesensor_one">
+		<TEXTVALUE>The data will flow from the sensor to the mote through the data-acquisition-board.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="12Graphplotted">
+	<TEXT ID="12Graphplotted_one">
+		<TEXTVALUE>The moisture values will be received in the hyper terminal. Plot the graph based on the received moisture values.  Then analyze the graph plotted according to the variations in moisture.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+</DATA>
